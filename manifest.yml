@@ -1,0 +1,9 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: m17spring
+  buildpack: java_buildpack
+  path: ./target/m17spring-1.0-SNAPSHOT.jar
+  memory: 256M
+  random-route: true
